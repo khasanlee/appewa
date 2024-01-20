@@ -1,0 +1,55 @@
+.first-container {
+    background-color: white;
+    height: 750px;
+    position: relative;
+    
+}
+.ewa-phones{
+    position: absolute;
+    height: 750px;
+    top: 0;
+    right: 100px;  
+}
+.plane {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    right: 870px;
+}
+.start-learning-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 140px;
+    left: 400px;
+}
+.start-learning-info {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.start-learning-info1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 28px;
+}
+.green-button {
+    margin-left: 10px;
+    color: white;
+    background-color: #40da19;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 15px 9px;
+    box-shadow: 0px 20px 20px #0000001a;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+.green-button:hover {
+    box-shadow: none;
+}

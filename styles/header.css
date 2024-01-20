@@ -1,9 +1,10 @@
 .header {
-    height: 80px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .right-section {
@@ -58,7 +59,9 @@
 
 }
 .main-icon{
+    width: 120%;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 
