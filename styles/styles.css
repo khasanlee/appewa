@@ -38,7 +38,7 @@
     line-height: 28px;
 }
 .green-button {
-    margin-left: 10px;
+    margin-top: 10px;
     color: white;
     background-color: #40da19;
     font-size: 20px;
@@ -52,4 +52,42 @@
 }
 .green-button:hover {
     box-shadow: none;
+}
+.second-container {
+    background-color: beige;
+    position: relative;
+    height: 2000px;
+}
+.books-phone {
+    width: 18%;
+    position: absolute;
+    right: 350px;
+    top: 250px;
+}
+.hand {
+    position: absolute;
+    right: 390px ;
+    top: 590px;
+}
+.ewa-headphones {
+    width: 18%;
+    position: absolute;
+    right: 580px;
+    top: 230px;
+}
+.vector-book{
+    width: 75%;
+    position: absolute;
+    top: 545px;
+    left: 290px;
+}
+.start-learning-container-second {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 140px;
+    left: 400px;
 }
