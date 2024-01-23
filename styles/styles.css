@@ -56,13 +56,15 @@
 .second-container {
     background-color: beige;
     position: relative;
-    height: 2000px;
+    height: 850px;
 }
 .books-phone {
     width: 18%;
     position: absolute;
     right: 350px;
     top: 250px;
+    z-index: 0;
+    
 }
 .hand {
     position: absolute;
@@ -73,7 +75,7 @@
     width: 18%;
     position: absolute;
     right: 580px;
-    top: 230px;
+    top: 240px;
 }
 .vector-book{
     width: 75%;
@@ -90,4 +92,39 @@
     height: 400px;
     top: 140px;
     left: 400px;
+}
+.book-divider {
+    position: absolute;
+    top: 640px;
+    right: 340px;
+    width: 550px;
+    height: 10px;
+    background: #c4c4c4;
+    border-radius: 10px;
+}
+
+.book-cover {
+    display: flex;
+    position: relative;
+    background-color: beige;
+}
+
+.book-cover-container {
+    background-color: beige;
+    display: grid;
+    margin-bottom: 1.18vw;
+    justify-content: start;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    grid-column-gap: 1.18vw;
+    grid-row-gap: 1.18vw;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.book-cover-items {
+    display: flex;
+    
+}
+.book-cover-items img {
+    width: 250px;
 }
